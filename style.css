@@ -1,0 +1,38 @@
+body{
+    color:white;
+    background: black;
+    margin-bottom: 100px;
+}
+
+header{
+    color: blue;
+    border-bottom: solid  2px whitesmoke ;
+    font-size: 32px;
+    font-family: "Matemasie", sans-serif;
+
+}
+
+section{
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+img{
+    height: 300px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap:10px;
+}
+
+.categoria-videos img{
+    opacity:0.5;
+}
+
+.categoria-videos img:hover{
+    opacity:1.0;
+    border: 1px solid  blue
+}
+
